@@ -16,4 +16,4 @@ author: ImuB
 # 개발 계획
 
 ### 1. 앱 UI 구성 
-![Repo Make]({{ site.images | relative_url }}/English-word-UI.png){: width="200" height="200" style="display: inline; padding-left: 30em"}![난이도 설정 페이지]({{ site.images | relative_url }}/English-word-Difficultly.png){: width="200" height="200" style="display: inline"}
+![Repo Make]({{ site.images | relative_url }}/English-word-UI.png){: width="200" height="200" style="display: inline; margin-left: 5em"}![난이도 설정 페이지]({{ site.images | relative_url }}/English-word-Difficultly.png){: width="200" height="200" style="display: inline; margin-left: 5em"}
