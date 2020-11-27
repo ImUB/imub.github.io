@@ -1,4 +1,4 @@
-I"�
+I"�
 <h2 class="category-key" id="jekyll">Jekyll</h2>
 
 <ul class="year">
@@ -45,6 +45,15 @@
       
         <li>
           
+            <a href="/posts/Jekyll-Theme/">What is the Jekyll!</a>
+            <span class="date">20-11-2020</span>
+          
+        </li>
+      
+    
+      
+        <li>
+          
             <a href="/posts/Github-Page/">How to make Github Page?</a>
             <span class="date">15-11-2020</span>
           
@@ -62,6 +71,21 @@
           
             <a href="/posts/Screen-Shot/">Features you need in Mac</a>
             <span class="date">17-11-2020</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="android">Android</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/posts/English-Word-App/">영어단어 암기를 도와주는 앱 개발</a>
+            <span class="date">24-11-2020</span>
           
         </li>
       
