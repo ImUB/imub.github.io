@@ -15,7 +15,5 @@ author: ImuB
 그렇게 고민하다 생각한 첫 프로젝트가 영어단어 암기 어플이다. 영어공부도 해야되고 영어단어 암기를 돕는 앱 정도는 시중에도 많이있고 개발하기 크게 까다롭지 않을거라 판단하여 첫 프로젝트로 제격일거라고 생각했다.
 ### 개발 계획
 
-#### 1. 앱 UI 구성 
-![Repo Make]({{ site.images | relative_url }}/English-word-UI.png){: width="200" height="200" style="display: inline; padding-left: 30em"}![난이도 설정 페이지]({{ site.images | relative_url }}/English-word-Difficultly.png){: width="200" height="200" style="display: inline"}
 ### 1. 앱 UI 구성 
 ![Repo Make]({{ site.images | relative_url }}/English-word-UI.png){: width="200" height="200" style="display: inline; margin-left: 5em"}![난이도 설정 페이지]({{ site.images | relative_url }}/English-word-Difficultly.png){: width="200" height="200" style="display: inline; margin-left: 5em"}
