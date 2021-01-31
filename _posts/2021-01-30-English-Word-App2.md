@@ -8,6 +8,7 @@ date:   2021-01-30 15:24:30 +0700
 categories: posts
 tags: ['Android']
 author: ImuB
+comments: true
 ---
 
 #### '21.1.30 앱 개발 완료
@@ -33,3 +34,8 @@ author: ImuB
 2. DB를 활용하여 원하는 단어를 추가 또는 삭제할 수 있는 기능
 * * * * *
 참고로 프로젝트 계획 당시 내장DB를 활용하여 개발하려 했으나 그냥 파일을 불러와서 변수로 출력해도 상관없지않을까 라는 생각이들어 파일을 활용했다. ~~사실 어려워서~~
+{% if page.comments %}
+<div id="post-disqus" class="container">
+{% include disqus.html %}
+</div>
+{% endif %}

@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 lang: "en"
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: https://imub.github.io
 twitter_username: ImUB
 github_username:  ImUB
 disqus_username:
@@ -28,12 +28,15 @@ safe: false
 lsi: false
 excerpt_separator: "\n\n"
 
+# Disqus
+disqus: true
+disqus_shortname: imub-github-io
+
 # Theme settings
 compress_html:
   comments: ["<!-- ", " -->"]
   clippings: all
   endings: all
-
 
 sass:
   sass_dir: assets/_sass
