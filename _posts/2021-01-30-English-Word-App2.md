@@ -13,7 +13,7 @@ author: ImuB
 #### '21.1.30 앱 개발 완료
 
 전 포스팅에서 말했던 hwp에 있는 단어들을 다음과 같은 python언어로 데이터를 다듬었다.
-![python code]({{ site.images | relative_url }}/Python-code.png)
+![python code]({{ site.images | relative_url }}/python-code.png)
 
 이게 완벽하게 단어와 뜻을 구분짓지는 못하지만 거의 대부분을 원하는대로 분리시켜준다. 
 이렇게 데이터를 가공한 뒤에 Android 프로젝트 raw폴더에 넣어서 활용할 것이다. 이후에는 구분자를 이용해서 단어와 뜻을 따로 변수에 담아서 출력해주어 어플을 개발하였다. 
