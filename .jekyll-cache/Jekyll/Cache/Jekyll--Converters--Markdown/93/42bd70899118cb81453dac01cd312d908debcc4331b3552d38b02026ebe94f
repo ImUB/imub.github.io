@@ -1,0 +1,20 @@
+I"�<h4 id="21130-앱-개발-완료">‘21.1.30 앱 개발 완료</h4>
+
+<p>전 포스팅에서 말했던 hwp에 있는 단어들을 다음과 같은 python언어로 데이터를 다듬었다.
+<img src="/assets/images/Python-code.png" alt="python code" /></p>
+
+<p>이게 완벽하게 단어와 뜻을 구분짓지는 못하지만 거의 대부분을 원하는대로 분리시켜준다. 
+이렇게 데이터를 가공한 뒤에 Android 프로젝트 raw폴더에 넣어서 활용할 것이다. 이후에는 구분자를 이용해서 단어와 뜻을 따로 변수에 담아서 출력해주어 어플을 개발하였다.</p>
+
+<h5 id="실제-어플-동작화면">실제 어플 동작화면</h5>
+
+<p><img src="/assets/images/android_main.png" alt="실동작화면1" width="200" height="200" style="display: inline; margin-left: 5em" /><img src="/assets/images/android_difficultly.png" alt="실동작화면2" width="200" height="200" style="display: inline; margin-left: 5em" /></p>
+
+<p>아직 미완점이라하면 다음 단어는 램더으로 불러오나 이전 단어는 List를 기억하여 보여주는 것이라 한 3번정도 이전으로 돌린 후 다음으로 넘기면 나왔던 단어가 아닌 랜덤한 단어가 다시 나오게 된다.</p>
+
+<p>참고로 프로젝트 계획 당시 내장DB를 활용하여 제작하려 했으나 그정도의 데이터양도 안될뿐더러 할 수는 있겠지만 시간이 좀 더 소요될 것 같아서 일단 파일을 활용해서 변수로 받아와 만들고 2번째 버전에서 DB를 넣는 등 어플의 기능을 추가 할 예정이다.</p>
+
+<p>또 한 난이도를 선택하는 layout에서는 돌아가기 버튼도 추가하였</p>
+
+<h4 id="추가할-기능">추가할 기능</h4>
+:ET
