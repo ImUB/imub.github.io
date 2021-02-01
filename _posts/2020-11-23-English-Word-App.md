@@ -8,6 +8,7 @@ date:   2020-11-23 22:19:47 +0700
 categories: posts
 tags: ['Android']
 author: ImuB
+comments: ture
 ---
 ### 개발 동기
 
@@ -15,7 +16,7 @@ author: ImuB
 
 ### 개발 계획
 
-## 1. 앱 UI 구성 
+## 1. 앱 UI 구성
 ![Repo Make]({{ site.images | relative_url }}/English-word-UI.png){: width="200" height="200" style="display: inline; margin-left: 5em"}![난이도 설정 페이지]({{ site.images | relative_url }}/English-word-Difficultly.png){: width="200" height="200" style="display: inline; margin-left: 5em"}
 
 ## 2. 앱 동작

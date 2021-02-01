@@ -8,6 +8,7 @@ date:   2020-11-17 21:08:47 +0700
 categories: posts
 tags: ['Os X']
 author: ImuB
+comments: ture
 ---
 
 이 글은 맥북을 활용하면서 한번씩은 사용해야할 단축키 및 기능들을 수시로 추가해 갈 것이다.

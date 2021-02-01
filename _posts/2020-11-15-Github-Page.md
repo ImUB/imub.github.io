@@ -8,6 +8,7 @@ date:   2020-11-15 16:19:47 +0700
 categories: posts
 tags: ['Github']
 author: ImuB
+comments: ture
 ---
 
 Github Page는 Github에서 제공하는 무료 호스팅 서비스이다.
@@ -22,6 +23,6 @@ Github Page는 Github에서 제공하는 무료 호스팅 서비스이다.
 ### 2. 저장소 설정하기
 ![Repo Seeting]({{ site.images | relative_url }}/RepoSet.png)
 
-생성한 저장소로 가서 setting으로 들어가 Github Page단을 보면 published 되었다는 화면을 볼 수 있을것이다. 그렇다면 호스팅 되고 있다는 뜻이고 해당 주소를 브라우저에서 들어간다면 생성된것을 확인 할 수 있을것이다. 
+생성한 저장소로 가서 setting으로 들어가 Github Page단을 보면 published 되었다는 화면을 볼 수 있을것이다. 그렇다면 호스팅 되고 있다는 뜻이고 해당 주소를 브라우저에서 들어간다면 생성된것을 확인 할 수 있을것이다.
 
 다음 포스팅에는 Jekyll을 활용하여 블로그의 디자인을 해보자.
