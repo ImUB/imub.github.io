@@ -1,7 +1,7 @@
 ---
 bg: "tools.jpg"
 layout: post
-title:  "What is the Jekyll!"
+title:  "지킬이란 무엇인가."
 crawlertitle: "About Jekyll"
 summary: "Github Page 꾸미기"
 date:   2020-11-19 22:19:47 +0700

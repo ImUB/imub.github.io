@@ -1,4 +1,4 @@
-I"V<h4 id="21130-앱-개발-완료">‘21.1.30 앱 개발 완료</h4>
+I"G<h4 id="21130-앱-개발-완료">‘21.1.30 앱 개발 완료</h4>
 
 <p>전 포스팅에서 말했던 hwp에 있는 단어들을 다음과 같은 python언어로 데이터를 다듬었다.
 <img src="/assets/images/python-code.png" alt="python code" /></p>
@@ -34,13 +34,13 @@
 
      /* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-
+     */
+     /*
      var disqus_config = function () {
      this.page.url = 'https://imub.github.io/posts/English-Word-App2/';  // Replace PAGE_URL with your page's canonical URL variable
      this.page.identifier = '/posts/English-Word-App2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
      };
      */
-    var disqus_developer = 1;
     (function() {
     var d = document, s = d.createElement('script');
     s.src = 'https://imub-github-io.disqus.com/embed.js';

@@ -1,4 +1,4 @@
-I"�
+I"r	
 <h2 class="category-key" id="jekyll">Jekyll</h2>
 
 <ul class="year">
@@ -45,7 +45,7 @@
       
         <li>
           
-            <a href="/posts/Jekyll-Theme/">What is the Jekyll!</a>
+            <a href="/posts/Jekyll-Theme/">지킬이란 무엇인가.</a>
             <span class="date">20-11-2020</span>
           
         </li>
@@ -80,6 +80,15 @@
 <h2 class="category-key" id="android">Android</h2>
 
 <ul class="year">
+    
+      
+        <li>
+          
+            <a href="/posts/English-Word-App3/">영어단어 암기를 도와주는 앱 개발(4)</a>
+            <span class="date">01-03-2021</span>
+          
+        </li>
+      
     
       
         <li>
