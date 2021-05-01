@@ -1,43 +1,4 @@
-I"r	
-<h2 class="category-key" id="jekyll">Jekyll</h2>
-
-<ul class="year">
-    
-      
-        <li>
-          
-            <a href="/posts/markdown/">Markdown Syntax Guide</a>
-            <span class="date">14-06-2020</span>
-          
-        </li>
-      
-    
-      
-        <li>
-          
-            <a href="/posts/welcome-to-jekyll/">Welcome to Jekyll!</a>
-            <span class="date">29-06-2016</span>
-          
-        </li>
-      
-    
-  </ul>
-
-<h2 class="category-key" id="front-end">Front-end</h2>
-
-<ul class="year">
-    
-      
-        <li>
-          
-            <a href="/posts/es6/">You Don't Know JS: ES6 &amp; Beyond</a>
-            <span class="date">29-06-2016</span>
-          
-        </li>
-      
-    
-  </ul>
-
+I"�
 <h2 class="category-key" id="github">Github</h2>
 
 <ul class="year">
@@ -54,7 +15,7 @@
       
         <li>
           
-            <a href="/posts/Github-Page/">How to make Github Page?</a>
+            <a href="/posts/Github-Page/">Github Page로 블로그 만드는 방법(1)</a>
             <span class="date">15-11-2020</span>
           
         </li>
@@ -113,6 +74,21 @@
           
             <a href="/posts/English-Word-App/">영어단어 암기를 도와주는 앱 개발(1)</a>
             <span class="date">24-11-2020</span>
+          
+        </li>
+      
+    
+  </ul>
+
+<h2 class="category-key" id="자격증">자격증</h2>
+
+<ul class="year">
+    
+      
+        <li>
+          
+            <a href="/posts/%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%EA%B8%B0%EC%82%AC/">21년 17회 정보보안기사 필기 후기</a>
+            <span class="date">01-05-2021</span>
           
         </li>
       
