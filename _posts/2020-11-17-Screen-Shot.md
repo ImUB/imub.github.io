@@ -1,7 +1,7 @@
 ---
 bg: "tools.jpg"
 layout: post
-title:  "Features you need in Mac"
+title:  "맥북 단축키 정리"
 crawlertitle: "Conquer Os X"
 summary: "맥에서 필요한 기능들"
 date:   2020-11-17 21:08:47 +0700
