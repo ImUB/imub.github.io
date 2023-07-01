@@ -2,12 +2,18 @@
 bg: "owl.jpg"
 layout: page
 title: "About"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "자기소개"
 permalink: /about/
-summary: "About this blog"
+summary: "자기소개"
 active: about
 ---
+## 학력
+ - 대전대학교 컴퓨터공학과 졸업('19.3.1)
 
-이 블로그는 Github Page를 활용하여 만들었고 Jekyll을 사용하여 Voyager라는 테마를 적용하고있는 블로그이다.
-웹 개발 공부중에 블로그의 필요성을 느끼고 Github page를 이용해 개인 정적블로그를 만들게 되었다.
-내용으로는 **Web, App, 보안** 에 대한 내용이 주가 될 것이다.
+## 자격증
+ - 정보처리기사('19.5.22)
+ - 정보보안기사(필기합격 후 실기준비)
+ - 네트워크관리사 2급('20.5.19 ~ '25.5.18)
+
+## 프로젝트
+ - 짬내서 영단어(Android)
