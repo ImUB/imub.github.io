@@ -2,7 +2,7 @@
 bg: "tools.jpg"
 layout: post
 title:  "맥북 단축키 정리"
-crawlertitle: "Conquer Os X"
+crawlertitle: "맥북 단축키 정리"
 summary: "맥에서 필요한 기능들"
 date:   2020-11-17 21:08:47 +0700
 categories: posts
