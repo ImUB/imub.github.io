@@ -26,18 +26,14 @@ layout: default
     {{ content }}
 
     <div class="post-links">
-      {% if page.next_in_category.url %}
         <a class="link-to-post" href="{{ page.next_in_category.url }}">
           <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span>
           <span class="link-to-post__title">{{ page.next_in_category.title }}</span>
         </a>
-      {% endif %}
-      {% if page.previous_in_category.url %}
         <a class="link-to-post" href="{{ page.previous_in_category.url }}">
           <span class="link-to-post__next">&#10535; &nbsp;Next post</span>
           <span class="link-to-post__title">{{ page.previous_in_category.title }}</span>
         </a>
-      {% endif %}
     </div>
   </div>
 </article>
