@@ -5,7 +5,7 @@ title:  "첫 프로젝트를 마치며"
 crawlertitle: "About Android"
 summary: "영어단어 어플 개발"
 date:   2021-10-23 19:24:30 +0700
-categories: posts
+categories: project english
 tags: ['Android']
 author: ImuB
 comments: ture
