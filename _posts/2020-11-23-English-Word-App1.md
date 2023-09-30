@@ -5,7 +5,7 @@ title:  "'짬내서 영단어' 앱 개발(1)"
 crawlertitle: "About Android"
 summary: "영어단어 어플 개발"
 date:   2020-11-23 22:19:47 +0700
-categories: posts
+categories: android
 tags: ['Android']
 author: ImuB
 comments: ture
