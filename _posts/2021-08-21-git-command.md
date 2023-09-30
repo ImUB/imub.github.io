@@ -5,7 +5,7 @@ title:  "Git 명령어 정리"
 crawlertitle: "git command"
 summary: "Git 기본적인 명령어 정리"
 date:   2021-08-21 16:20:47 +0700
-categories: "Github"
+categories: posts
 tags: ['Github']
 author: ImuB
 comments: ture
