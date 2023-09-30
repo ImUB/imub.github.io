@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImUB Blog</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Sep 2023 22:50:05 +0900</pubDate>
+    <lastBuildDate>Sat, 30 Sep 2023 22:50:05 +0900</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>[F.T.Z] 해커스쿨 FTZ 뽀개기 / level1</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;아이디&lt;/th&gt;
+      &lt;th&gt;비밀번호&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;level1&lt;/td&gt;
+      &lt;td&gt;level1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;cat hint&lt;br /&gt;
+level2 권한에 setuid가 걸린 파일을 찾는다.&lt;br /&gt;
+찾기 위한 명령어&lt;br /&gt;
+&lt;strong&gt;find / -perm -4000 -user level2 2&amp;gt;dev/null&lt;/strong&gt;&lt;br /&gt;
+find 명령어는 파일이나 디렉토리 찾기.&lt;br /&gt;
+/ 최고 root 디렉토리에서부터&lt;br /&gt;
+-perm -4000 setuid가 걸린 파일을 찾아라&lt;br /&gt;
+-user level2 유저이름이 level2 인것을&lt;br /&gt;
+2&amp;gt; /dev/null Permission denied나는 에러는 출력X&lt;/p&gt;
+
+&lt;p&gt;명령어 결과 &lt;strong&gt;/bin/ExecuteMe&lt;/strong&gt;라는 파일 발견&lt;br /&gt;
+실행하면 레벨2 권한으로 한가지 명령어   실행할수있는 파일 발견(단, my-pass와 chmod는 제외)&lt;br /&gt;
+/bin/bash or /bin/sh 등 해당 계정의 쉘 명령어를 쓸 수 있도록 한다면 계속해서 해당 계정의 권한으로 명령을 내릴수있을것이다.&lt;/p&gt;
+
+&lt;p&gt;입력하면 계정이 level2로 바뀌는것을 확인할수있고
+my-pass명령어를 입력한다면 비밀번호를 찾을수있다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Jul 2023 14:19:30 +0900</pubDate>
+        <link>http://localhost:4000/pwn/%ED%95%B4%EC%BB%A4%EC%8A%A4%EC%BF%A8-FTZ-level1/</link>
+        <guid isPermaLink="true">http://localhost:4000/pwn/%ED%95%B4%EC%BB%A4%EC%8A%A4%EC%BF%A8-FTZ-level1/</guid>
+        
+        <category>PWN</category>
+        
+        
+        <category>pwn</category>
+        
+      </item>
+    
+      <item>
+        <title>첫 프로젝트를 마치며</title>
+        <description>&lt;p&gt;‘짬내서 영단어’ 어플을 ‘20.11.24에 계획하고 플레이스토어에 올리기까지 거의 1년이 걸렸다. 1년이 걸릴정도의 완성도 높은 어플도 아니지만 개발을 하면서 방황도 많이했고 기술적인 어려움도 있었다. 그렇게 느끼고 배운점에 대해서 정리하겠다.&lt;/p&gt;
+
+&lt;h3 id=&quot;개발-계획을-세웠다면-계획대로-움직여라&quot;&gt;개발 계획을 세웠다면 계획대로 움직여라!&lt;/h3&gt;
+
+&lt;p&gt;어플을 만들다 보니 잘만들고싶다는 생각이 커져서 이 기능 저 기능 넣고싶어진다. 나는 개발계획 당시에 내부저장(CSV파일)을 이용해서 개발을 하려고했다가 데이터베이스(Sqlite)로 바꾸려고했다. 개발기간이 더 길어지면서 점점 프로젝트가 흐지부지해지는 느낌이 들었다. 좋은 기능들을 추가하는것은 좋은 일이지만 계획했던것에서 계속해서 기능을 추가해가며 개발을하게된다면 완성시간은 더 길어지며 점점 루즈해지는 상황을 겪게된다. 따라서 원래 계획했던것을가지고 개발 시간을 줄이고 중간중간 생각나는 기능들은 메모해뒀다가 최종완성이 되면 Git을 활용해서 branch를 따서 새로운 프로젝트로 작업하면 될 것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;코드를-일회용으로-짜지말고-함수화하여-재활용-할-수-있게-만들어라&quot;&gt;코드를 일회용으로 짜지말고 함수화하여 재활용 할 수 있게 만들어라.&lt;/h3&gt;
+
+&lt;p&gt;영단어 어플을 만들면서 영단어를 파싱해야될 일이 많았다. 나는 주로 hwp파일이나 pdf에서 파싱을 많이했고 그 파일에 맞게파이썬으로 일회용 코딩을해서 파싱을 했다. 근데 한번 두번 정도는 해도여러 파일들을 파싱해야될때는 시간이 너무 걸렸다. 그래서 그 파일들을 파싱해야하는데이터의 정리할 수 있는 패턴을 찾고 그것을 함수화하여 코딩을 짜고 파싱하는 프로그램을 짜놓으니 어떤 데이터라도 파싱 프로그램을 조그만 수정하는것만으로 빠르게 파싱이 가능하게 되었다. 내가 짜는 모든 코드가 언제 어디선가 또 활용될 수 있으니 함수화해서 가지고있으면 좋을것이라는 생각이들었다.&lt;/p&gt;
+
+&lt;h3 id=&quot;프로젝트를-마치며&quot;&gt;프로젝트를 마치며.&lt;/h3&gt;
+
+&lt;p&gt;많이 돌아왔지만 돌아온만큼 많은것들을 배우게 되었다. 첫 프로젝트를 마치면서 자신감이 조금 생겼다. 많은 것을 배웠고 내 첫 완성프로젝트도 생겼다. 물론 엄청 대단한 결과물은 아니지만 그래도 매듭을 지었다는것에 대해 굉장히 뿌듯하고 보람차다 계속해서 프로젝트를 만들고 개발해가며 매듭을 짓다보면 대단한 결과물을 만들어 낼수있을거라고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;추가적으로 ‘짬내서 영단어’는 계속해서 업데이트해서 실제로 사용자들이 생길때까지 업데이트할 예정이다. 그 업데이트 또 한 포스팅해나가겠다.&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Oct 2021 21:24:30 +0900</pubDate>
+        <link>http://localhost:4000/android/English-Word-App-%ED%9B%84%EA%B8%B0/</link>
+        <guid isPermaLink="true">http://localhost:4000/android/English-Word-App-%ED%9B%84%EA%B8%B0/</guid>
+        
+        <category>Android</category>
+        
+        
+        <category>android</category>
+        
+      </item>
+    
+      <item>
+        <title>&apos;짬내서 영단어&apos; 앱 개발(최종)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/앱출시(1).jpg&quot; alt=&quot;스토어출시1&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;display: inline; margin-left: 5em&quot; /&gt;&lt;img src=&quot;/assets/images/앱출시(2).jpg&quot; alt=&quot;스토어출시2&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;display: inline; margin-left: 5em&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;마지막 영단어 앱 개발 포스팅을 올린지 약 3개월이 지났다.
+정확한 방향없이 개발을 하다보니 개발기간이 길어졌다.
+프로젝트를 마치면서 느끼고 생각했던것은 따로 포스팅해서 정리하겠다.&lt;/p&gt;
+
+&lt;p&gt;먼저 중간에 하려던 DB를 넣는다던지했던 기능들은 모조리 빼고 원래
+생각했던 파일데이터를 이용한 어플을 개발했고&lt;/p&gt;
+
+&lt;p&gt;이 어플의 기능은 단순하다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;영단어 종류 선택&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;좌 우를 눌러서 단어 넘기기&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;뜻 가리기&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이렇게 구성된 어플이고 여기서 좀 더 업데이트할 기능은&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;파일데이터를 DB화하여 내장DB 활용하기.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;시험기능을 추가하여 맞추게되면 해당단어 노출X&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;총 단어에서 외운단어 progress_bar를 활용 시각화&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;배경색깔 개인기호에맞게 바꿀수있는 기능 추가&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;정도로 업데이트를 할 예정이다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Oct 2021 21:24:30 +0900</pubDate>
+        <link>http://localhost:4000/android/English-Word-App-%EC%B5%9C%EC%A2%85/</link>
+        <guid isPermaLink="true">http://localhost:4000/android/English-Word-App-%EC%B5%9C%EC%A2%85/</guid>
+        
+        <category>Android</category>
+        
+        
+        <category>android</category>
+        
+      </item>
+    
+      <item>
+        <title>Git 명령어 정리</title>
+        <description>&lt;p&gt;이번 포스팅에서는 git을 터미널에서 명령어로 조작하는 사람들을 위해 정리해두겠다.&lt;/p&gt;
+
+&lt;p&gt;git init - 로컬 저장소를 생성&lt;br /&gt;
+git pull origin (branch name) - 원격저장소에있는 정보 불러오기&lt;br /&gt;
+git push origin (branch name) - 로컬저장소 정보 원격저장소에 저장&lt;br /&gt;
+git add . - 모든 수정 파일들 추가&lt;br /&gt;
+git commit -m “message” - add한 파일들 commit하는 명령어&lt;br /&gt;
+git status - 깃 상태 보기&lt;br /&gt;
+git branch - 현 branch 보기&lt;br /&gt;
+git clone (저장소 url) - 원격저장소 복사하기&lt;br /&gt;
+git checkout (branch name) - 현재 브랜치에서 다른 브랜치로 변경&lt;br /&gt;
+git log - 커밋 내용 모두 보여줌&lt;/p&gt;
+
+&lt;p&gt;중구난방으로 생각나는 명령어들만 적어 놨으나 상황 상황마다 구분하여 좀 더 직관적으로 수정할 예정이다.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Aug 2021 18:20:47 +0900</pubDate>
+        <link>http://localhost:4000/git/git-command/</link>
+        <guid isPermaLink="true">http://localhost:4000/git/git-command/</guid>
+        
+        <category>Github</category>
+        
+        
+        <category>git</category>
+        
+      </item>
+    
+      <item>
+        <title>&apos;짬내서 영단어&apos; 앱 개발(5)</title>
+        <description>&lt;p&gt;다시 개발을 이어나가고있다. DB구축은 완료했고 파일에 있는 데이터를 최초에 DB에 입력하는 기능과 사용자가 원하는 단어 추가, 외운 단어 리스트뷰, 외운 진행상황 기능들을 추가해야한다. 그리고 가장 중요한것은 DB를 잘 구축해서 시험 종류에 맞는 데이터들을 잘 내보내줄수있게 개발해야할 것이다.&lt;/p&gt;
+
+&lt;p&gt;기능이 추가되다보니 UI 또 한 살짝 달라졌다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/N_UI_MAIN.png&quot; alt=&quot;MAINACTIVITY&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;display: inline; margin-left: 5em&quot; /&gt;&lt;img src=&quot;/assets/images/N_UI_DIFF.png&quot; alt=&quot;DIFFICULTACTIVTY&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;display: inline; margin-left: 5em&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 28 Jul 2021 21:24:30 +0900</pubDate>
+        <link>http://localhost:4000/android/English-Word-App5/</link>
+        <guid isPermaLink="true">http://localhost:4000/android/English-Word-App5/</guid>
+        
+        <category>Android</category>
+        
+        
+        <category>android</category>
+        
+      </item>
+    
+  </channel>
+</rss>
