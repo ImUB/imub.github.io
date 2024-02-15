@@ -7,9 +7,10 @@
     <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     {% for my_page in site.pages %}
-      {% if my_page.active == 'archive'%}    
-        <a class='blog-arch' href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>    
-      {% else %}
+      {% if my_page.active %}
+        {% if my_page.title == 'Archive'%}
+          <a class='blog-arch' href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>    
+        {% endif%}
         <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>  
       {% endif %}
     {% endfor %}
