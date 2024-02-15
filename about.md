@@ -1,5 +1,5 @@
 ---
-bg: "owl.jpg"
+bg: "tag.jpg"
 layout: page
 title: "About"
 crawlertitle: "자기소개"
@@ -17,3 +17,4 @@ active: about
 
 ## 프로젝트
  - 짬내서 영단어(Android)
+ - 스타벅스 클론 홈페이지 제작(HTML + CSS + Javascript)

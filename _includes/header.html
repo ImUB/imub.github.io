@@ -5,15 +5,8 @@
   <nav class="center-wrapper nav-main">
 
     <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    {% for my_page in site.pages %}
-      {% if my_page.active %}
-        {% if my_page.title == 'Archive'%}
-          <a class='blog-arch' href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>    
-        {% endif%}
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>  
-      {% endif %}
-    {% endfor %}
+    <a href="{{ '/about' | prepend: site.baseurl }}">ABOUT</a>
+    <a href="{{ '/posts' | prepend: site.baseurl }}">CATEGORY</a>
 
     <a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a>
 

@@ -1,10 +1,10 @@
 ---
-bg: "tag.jpg"
+bg: "owl.jpg"
 layout: page
 permalink: /posts/
-title: "Archive"
-crawlertitle: "All articles"
-summary:
+title: "Category"
+crawlertitle: "카테고리"
+summary: "포스트"
 active: archive
 ---
 
