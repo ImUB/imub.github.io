@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ImUB Blog
+title: ImUB's 기술 블로그
 email: dladbql1234@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -44,3 +44,8 @@ sass:
 
 
 images: '/assets/images'
+
+#sitemap 추가
+url: "https://imub.github.io"
+plugins:
+  - jekyll-sitemap

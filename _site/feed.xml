@@ -6,9 +6,36 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Feb 2024 00:21:06 +0900</pubDate>
-    <lastBuildDate>Fri, 16 Feb 2024 00:21:06 +0900</lastBuildDate>
+    <pubDate>Thu, 22 Feb 2024 23:09:32 +0900</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2024 23:09:32 +0900</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>[Git] Git에 대한 모든 것</title>
+        <description>&lt;h2 id=&quot;git-이란&quot;&gt;Git 이란?&lt;/h2&gt;
+&lt;p&gt;Git 이란 버전 관리 도구이다. 그럼 &lt;strong&gt;버전 관리 도구&lt;/strong&gt;란 무엇일까?&lt;br /&gt;
+하나의 프로젝트를 진행한다고 가정했을때 처음 개발단계에서 부터 최종 단계까지의&lt;br /&gt;
+진행절차를 모두 저장해둘 수 있는 도구이다. 여기서 단순 저장에서 그치는것이 아닌&lt;br /&gt;
+어떤 부분을 수정했는지 비교해서 보여주는 기능도 있고 과거로 프로젝트를 돌릴수도있다. &lt;br /&gt;
+이것뿐 아니라 개발분기를 나누어 현재 프로젝트에는 영향 없이 다른 기능들을 구현 할 수도&lt;br /&gt;
+있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;git은-쉽게-말하면-sw개발계의-타임머신인-셈이다&quot;&gt;&lt;strong&gt;&lt;em&gt;Git은 쉽게 말하면 SW개발계의 타임머신인 셈이다.&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;git-사용법&quot;&gt;Git 사용법&lt;/h2&gt;
+
+</description>
+        <pubDate>Thu, 22 Feb 2024 22:31:47 +0900</pubDate>
+        <link>http://localhost:4000/git/Git-A-to-Z/</link>
+        <guid isPermaLink="true">http://localhost:4000/git/Git-A-to-Z/</guid>
+        
+        <category>Git</category>
+        
+        
+        <category>git</category>
+        
+      </item>
     
       <item>
         <title>[F.T.Z] 해커스쿨 FTZ 뽀개기 / level1</title>
@@ -144,30 +171,10 @@ git log - 커밋 내용 모두 보여줌&lt;/p&gt;
         <link>http://localhost:4000/git/git-command/</link>
         <guid isPermaLink="true">http://localhost:4000/git/git-command/</guid>
         
-        <category>Github</category>
+        <category>Git</category>
         
         
         <category>git</category>
-        
-      </item>
-    
-      <item>
-        <title>&apos;짬내서 영단어&apos; 앱 개발(5)</title>
-        <description>&lt;p&gt;다시 개발을 이어나가고있다. DB구축은 완료했고 파일에 있는 데이터를 최초에 DB에 입력하는 기능과 사용자가 원하는 단어 추가, 외운 단어 리스트뷰, 외운 진행상황 기능들을 추가해야한다. 그리고 가장 중요한것은 DB를 잘 구축해서 시험 종류에 맞는 데이터들을 잘 내보내줄수있게 개발해야할 것이다.&lt;/p&gt;
-
-&lt;p&gt;기능이 추가되다보니 UI 또 한 살짝 달라졌다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/N_UI_MAIN.png&quot; alt=&quot;MAINACTIVITY&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;display: inline; margin-left: 5em&quot; /&gt;&lt;img src=&quot;/assets/images/N_UI_DIFF.png&quot; alt=&quot;DIFFICULTACTIVTY&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;display: inline; margin-left: 5em&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 28 Jul 2021 21:24:30 +0900</pubDate>
-        <link>http://localhost:4000/android/English-Word-App5/</link>
-        <guid isPermaLink="true">http://localhost:4000/android/English-Word-App5/</guid>
-        
-        <category>Android</category>
-        
-        
-        <category>android</category>
         
       </item>
     

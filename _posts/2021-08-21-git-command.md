@@ -2,11 +2,11 @@
 bg: "tools.jpg"
 layout: post
 title:  "Git 명령어 정리"
-crawlertitle: "git command"
+crawlertitle: "Git 명령어 정리"
 summary: "Git 기본적인 명령어 정리"
 date:   2021-08-21 16:20:47 +0700
 categories: git
-tags: ['Github']
+tags: ['Git']
 author: ImuB
 comments: ture
 ---

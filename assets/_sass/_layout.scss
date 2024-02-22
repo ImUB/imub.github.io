@@ -231,7 +231,7 @@ article {
     height: auto;
     display: block;
     margin: 1em auto;
-    background-color: #fff;
+    // background-color: #fff;
   }
 }
 
@@ -264,6 +264,7 @@ article {
 }
 
 .year li {
+  font-size: large;
   padding: 5px;
   padding: 8px 10px;
   border-bottom: 1px dotted #000000
@@ -313,7 +314,7 @@ article {
   text-decoration: none;
   outline: none;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
   transition: border-color .5s ease-in 0s;
   &:hover { border-color: #0D243B; }
 

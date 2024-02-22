@@ -6,7 +6,7 @@ crawlertitle: "About Jekyll"
 summary: "Github Page 꾸미기"
 date:   2020-11-19 22:19:47 +0700
 categories: git
-tags: ['Github']
+tags: ['Git']
 author: ImuB
 comments: ture
 ---
